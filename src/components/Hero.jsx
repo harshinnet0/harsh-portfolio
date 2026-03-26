@@ -42,7 +42,7 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-lg md:text-xl text-zinc-400 mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light"
             >
-              Hi, I'm <strong className="text-zinc-100 font-medium">Harsh Raj</strong>, an AI Project Trainee and passionate developer specializing in Agentic AI, React, and modern web technologies. I build scalable, intelligent, and user-focused digital solutions.
+              Hi, I'm <strong className="text-zinc-100 font-medium">Harsh Raj</strong> —  Computer Science Engineering student at Vivekananda Global University and AI Project Trainee. I specialize in Agentic AI, React, and modern web development, building scalable and intelligent digital solutions.
             </motion.p>
 
             <motion.div
