@@ -28,12 +28,32 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Harsh Raj | VGU Jaipur | Portfolio" />
     <meta property="og:description" content="Explore the portfolio, projects, and skills of Harsh Raj, B.Tech CSE student at Vivekananda Global University." />
-    <meta property="og:url" content="https://harsh-raj-portfolio.vercel.app" />
+    <meta property="og:url" content="https://harsh-portfolio-six-gray.vercel.app" />
 
     <!-- ✅ TWITTER -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Harsh Raj | VGU Jaipur | Portfolio" />
     <meta name="twitter:description" content="Portfolio of Harsh Raj, B.Tech CSE student at Vivekananda Global University (VGU)." />
+
+    <!-- 🚀 STRUCTURED DATA (VERY IMPORTANT FOR GOOGLE) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Harsh Raj",
+      "url": "https://harsh-portfolio-six-gray.vercel.app",
+      "image": "https://harsh-portfolio-six-gray.vercel.app/profile.jpg",
+      "sameAs": [
+        "https://www.linkedin.com/in/harsh-raj-33ba66261/",
+        "https://github.com/harshinnet0"
+      ],
+      "jobTitle": "AI Developer",
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Vivekananda Global University"
+      }
+    }
+    </script>
 
   </head>
 
@@ -41,7 +61,7 @@
     <!-- React Root -->
     <div id="root"></div>
 
-    <!-- ✅ Vite Entry (DON'T CHANGE THIS) -->
+    <!-- ✅ Vite Entry -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
