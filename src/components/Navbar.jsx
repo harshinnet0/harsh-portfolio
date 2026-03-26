@@ -15,9 +15,11 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
+    { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Experience', href: '#experience' },
     { name: 'Projects', href: '#projects' },
+    { name: 'Certificates', href: '#certificates' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -53,13 +55,16 @@ const Navbar = () => {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="flex items-center space-x-4 border-l border-zinc-700 pl-6"
+            className="flex items-center space-x-4 border-l border-white/10 pl-6"
           >
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-white transition-colors">
+            <a href="https://github.com/harshinnet0" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-white transition-colors">
               <Code size={20} />
             </a>
             <a href="https://www.linkedin.com/in/harsh-raj-33ba66261" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-white transition-colors">
               <Globe size={20} />
+            </a>
+            <a href="#contact" className="hidden lg:flex ml-4 px-6 py-2 rounded-full bg-gradient-to-r from-cyan-500 to-purple-500 text-white text-sm font-bold shadow-[0_0_15px_rgba(6,182,212,0.4)] hover:shadow-[0_0_25px_rgba(6,182,212,0.6)] hover:scale-105 transition-all duration-300">
+              Hire Me
             </a>
           </motion.div>
         </div>

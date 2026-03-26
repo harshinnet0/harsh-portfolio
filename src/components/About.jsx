@@ -4,10 +4,12 @@ import { Terminal, Database, BrainCircuit, Code, Award, GraduationCap, Briefcase
 
 const About = () => {
   const skills = [
-    { name: 'React.js, Next.js & Tailwind', level: 'Advanced', icon: <Code size={20} className="text-violet-400" /> },
-    { name: 'TypeScript & Node.js', level: 'Intermediate', icon: <Terminal size={20} className="text-emerald-400" /> },
-    { name: 'AI & Prompt Engineering', level: 'Advanced', icon: <BrainCircuit size={20} className="text-orange-400" /> },
-    { name: 'Cloud & Database Architecture', level: 'Intermediate', icon: <Database size={20} className="text-fuchsia-400" /> },
+    { name: 'C / C++ / C# / Java', level: 'Core Languages', icon: <Code size={20} className="text-violet-400" /> },
+    { name: 'React.js, Next.js & Tailwind', level: 'Frontend Advanced', icon: <Code size={20} className="text-cyan-400" /> },
+    { name: 'Python, PHP & Node.js', level: 'Backend & Scripting', icon: <Terminal size={20} className="text-emerald-400" /> },
+    { name: 'TypeScript & JavaScript', level: 'Web Programming', icon: <Terminal size={20} className="text-blue-400" /> },
+    { name: 'AI & Prompt Engineering', level: 'Specialization', icon: <BrainCircuit size={20} className="text-orange-400" /> },
+    { name: 'Vercel, Netlify & GitHub', level: 'Deployment & CI/CD', icon: <Database size={20} className="text-fuchsia-400" /> },
   ];
 
   const education = [

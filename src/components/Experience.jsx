@@ -4,7 +4,7 @@ import { Briefcase, Calendar, CircleCheck } from 'lucide-react';
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-24 relative bg-zinc-900/50">
+    <section id="experience" className="py-24 relative">
       <div className="container mx-auto px-6 relative z-10">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
